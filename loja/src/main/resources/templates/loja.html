@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Beco diagonal</title>
+</head>
+<body>
+    <h1>Olivares</h1>
+
+    <th:block th:each="loja : ${lojas}">
+        <p th:text="${loja.toString()}"></p>
+    </th:block>
+
+</body>
+</html>
